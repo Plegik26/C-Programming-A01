@@ -19,12 +19,16 @@ The project implements a simple game where a monkey tries to catch as many falli
 
 ## How to run
 
-- Console (printf version)
-gcc hungry_monkey_printf.c move_monkey.c -o hungry_monkey
-./hungry_monkey
+Console (printf version)
 
-- No GUI – Performance Test
+`gcc hungry_monkey_printf.c move_monkey.c -o hungry_monkey`
+
+`./hungry_monkey`
+
+
+No GUI – Performance Test
 Runs for 100 iterations and outputs the average score:
 
-gcc hungry_monkey_nogui.c move_monkey.c -o hungry_monkey
-./hungry_monkey
+`gcc hungry_monkey_nogui.c move_monkey.c -o hungry_monkey`
+
+`./hungry_monkey`
